@@ -1,0 +1,20 @@
+# LexiAssist RAG Pipeline — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML / embedding
+sentence-transformers>=2.7.0   # bi-encoder embeddings + cross-encoder reranking
+faiss-cpu>=1.8.0               # vector index (use faiss-gpu if you have a GPU)
+
+# Keyword search
+rank-bm25>=0.2.2               # BM25Okapi sparse retrieval
+
+# Dataset
+datasets>=2.19.0               # HuggingFace datasets (streaming)
+
+# LLM API
+openai>=1.30.0                 # GPT-4o query expansion + generation
+
+# Utilities
+numpy>=1.26.0
+flask
+flask-cors

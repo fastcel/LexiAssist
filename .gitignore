@@ -1,0 +1,7 @@
+chunks.npy
+__pycache__/
+*.pyc
+*.npy
+*.gguf
+venv/
+.env
