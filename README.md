@@ -18,13 +18,13 @@ A version using models trained/fine-tuned by us
 Setup instructions for both versions are provided below..
 
 ## Setup instructions for both versions
-1. Install dependencies
+1. Install dependencies: 
 pip install -r requirements.txt
 
-2. Build retrieval index 
+2. Build retrieval index: 
 python indexer.py
 
-3. Start server
+3. Start server: 
 python server.py
 
 
